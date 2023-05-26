@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedStore | E-commerce artigos esportivos</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="images/logo-favicon.png" type="image/x-icon">
+
+    <script src="https://kit.fontawesome.com/23655c98f8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="logo" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </nav>
+                <a href="pagamentos.html"><img src="images/cart.png" alt="" width="30px" height="30px"></a>
+                <img src="images/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+
+<div class="account page">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/image1.png" width="100%">
+            </div>
+            <div class="col-2">
+                <div class="form-container">
+                    <div class="form-btn">
+                        <span onclick="login()">Login</span>
+                        <span onclick="register()">Registrar</span>
+                        <hr id="Indicator">
+                    </div>
+
+                    <form id="LoginForm">
+                        <input type="text" placeholder="Nome do usuário">
+                        <input type="password" placeholder="Senha">
+                        <button type="submit" class="btn">Login</button>
+                        <a href="">Esqueci a senha</a>
+                    </form>
+                    
+                    <form id="RegForm">
+                        <input type="text" placeholder="Nome do usuário">
+                        <input type="email" placeholder="E-mail">
+                        <input type="password" placeholder="Senha">
+                        <button type="submit" class="btn">Registrar</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Use nosso app</h3>
+                <p>Baixe o aplicativo para celular e ios</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png" alt="">
+                    <img src="images/app-store.png" alt="">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo-white.png" alt="">
+                <p>Nosso propósito é tonar o prazar e os benefícios do esporte acessíveis a todos</p>
+            </div>
+            <div class="footer-col-4">
+                <h3>Siga-nos</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023 - RedStore</p>
+    </div>
+</div>
+
+<script src="menu.js"></script>
+
+</body>
+</html>
+
